@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background: #f5f5f5;
+}
+.menu-left img{
+    width: 35px;
+}
+.menu-left{
+    padding: 0 50px;
+}
+.menu-right{
+    display: flex;
+    margin: 0 20px;
+    padding: 4px 36px;
+}
+.menu-right a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background: white;
+}
+.navbar-left img{
+    width: 75px;
+}
+.navbar-left{
+    padding: 0 50px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+.navbar-right-links a{
+    padding: 8px 25px;
+    color: black;
+    text-decoration: none;
+}
+.navbar-right a img{
+    width: 50px;
+}
+.searchbox{
+    border: 1px solid black;
+    background: #f5f5f5;
+    width: 210px;
+}
+.searchbox input{
+    outline: 0;
+    border: 0;
+    background: #f5f5f5;
+    padding: 8px 0;
+}
+.searchbox img{
+    width: 40px;
+    padding: 6px 8px;
+}
+.navbaricons {
+    padding: 0 20px;
+}
+.banner img{
+    width: 1200px;
+
+}
+.banner{
+    padding: 0 6px;
+    margin: 20px 30px;
+}
+.banner-discription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-discription img{
+    width: 1200px;
+}
+.banner-discription p{
+    padding: 8px 15px;
+    background: black;
+    border-radius: 25px;
+    transition: 0.8s;
+}
+.banner-discription a{
+    text-decoration: none;
+    color: white;
+}
+.banner-discription p:hover{
+    background: #ccc;
+}
+.featured-products img{
+    width: 450px;
+    height: 500px;
+}
+.featured-products{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 30px;
+
+}
+.head{
+    padding-left: 126px;
+}
+.intropicin{
+    position: absolute;
+    top: 361px;
+    left: 200px;
+    width: 400px;
+    font-size: 18px;
+}
+.intropicin a p{
+    padding: 10px 25px;
+    width: fit-content;
+    background: black;
+    border-radius: 25px;
+    color: white;
+    transition: 0.8s;
+}
+.intropicin a p:hover{
+    background: #7e7e7e7e;
+}
+.featured-product2{
+    position: relative;
+}
+.intropicin2{
+    position: absolute;
+    top: 389px;
+    left: 170px;
+    font-size: 18px;
+}
+.intropicin2 a p{
+    padding: 10px 25px;
+    background: black;
+    width: fit-content;
+    border-radius: 25px;
+    color: white;
+    transition: 0.8s;
+}
+.intropicin2 a p:hover{
+    background: #7e7e7e7e;
+}
+.arrival{
+    margin-bottom: 50px;
+}
+.arrival a{
+    color: white;
+}
+.arrivalpics img{
+    width: 380px;
+    height: 524px;
+}
+.headarrival{
+    margin: 22px 35px;
+}
+.arrivalpics{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 17px;
+}
+.pic1{
+    position: relative;
+}
+.picbutton{
+    position: absolute;
+    top: 452px;
+    left: 115px;
+}
+.picbutton p{    
+    padding: 10px 25px;
+    background: black;
+    border-radius: 25px;
+    transition: 0.8s;
+}
+.picbutton p:hover{
+    background: #7e7e7e7e
+}
+.pic2{
+    position: relative;
+}
+.picbutton2{
+    position: absolute;
+    top: 452px;
+    left: 115px;
+}
+.picbutton2 p{    
+    background: black;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: 0.8s;
+}
+.picbutton2 p:hover{
+    background: #7e7e7e7e;
+}
+.pic3{ 
+    position: relative;
+}
+.picbutton3{
+    position: absolute;
+    top: 452px;
+    left: 115px;
+}
+.picbutton3 p{    
+    background: black;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: 0.8s;
+}
+.picbutton3 p:hover{
+    background: #7e7e7e7e;
+}
+.title{
+    margin: 15px 23px;
+    font-size: 20px;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+.items img{
+    width: 380px;
+}
+span{
+    padding: 0 116px;
+}
+.items a p{
+    color: black;
+    font-size: 17px;
+}
+.items p{
+    color: rgb(165, 156, 156);
+}
+.title2{
+    margin: 31px 34px;
+    font-size: 20px;
+
+}
+.dont-miss img{
+    width: 1200px;
+}
+.dont-miss{
+    margin: 16px 35px;
+}
+.dont-miss a p{
+    margin: 5px 590px;
+    width: fit-content;
+    padding: 10px 30px;
+    background: black;
+    color: #f5f5f5;
+    border-radius: 25px;
+    transition: 0.8s;
+}
+.dont-miss a p:hover{
+    background: #7e7e7e7e;
+}
+.title3{
+    margin: 23px 27px;
+    font-size: 20px;
+}
+.shop-catagories{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.shop-catagories img{
+    width: 390px;
+    height: 600px;
+}
+.catagories1{
+    position:relative
+}
+.shop-catagories a{
+    color: black;
+}
+.button1{
+    position: absolute;
+    top: 460px;
+    left: 140px;
+    
+}
+.button1 p{
+    padding: 10px 25px;
+    border-radius: 25px;
+    background: white;
+    transition: 0.8s;
+}
+.button1 p:hover{
+    background: #7e7e7e7e;
+}
+.catagories2{
+    position:relative
+}
+.button2{
+    position: absolute;
+    top: 460px;
+    left: 140px;
+    
+}
+.button2 p{
+    padding: 10px 25px;
+    border-radius: 25px;
+    background: white;
+    transition: 0.8s;
+}
+.button2 p:hover{
+    background: #7e7e7e7e;
+}
+.catagories3{
+    position:relative
+}
+.button3{
+    position: absolute;
+    top: 460px;
+    left: 140px;
+}
+.button3 a p{
+    padding: 10px 25px;
+    border-radius: 25px;
+    background: white;
+    transition: 0.8s;
+}
+.button3 a p:hover{
+    background-color: #7e7e7e7e;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 0px;
+}
+.footer h3{
+    color: black;
+    padding: 13px 0px;
+    font-size: 16px;
+}
+.footer a p{
+    color: #7e7e7e7e;
+    transition: 0.8s;
+}
+.footer a p:hover{
+    color: black;
+}
+.aboutNike{
+    display: flex;
+    justify-content: space-between;
+    background: #111111;
+    padding: 30px 30px;
+}
+.aboutNike-left{
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboutNike h3{
+    color: white;
+    padding-bottom: 10px;
+}.aboutNike a p{
+    color: #7e7e7e7e;
+    transition: 0.8s;
+}
+.aboutNike a p:hover{
+    color: white;
+}
+.about1{
+    padding-left: 30px;
+
+}
+.about2{
+    padding-left: 30px;
+}
+.about3{
+    padding-left: 30px;
+}
+.aboutNike-right a i{
+    font-size: 50px;
+    color: #7e7e7e7e;
+    transition: 0.8s;
+}
+.aboutNike-right a i:hover{
+    color: white;
+}
+.footer-end{
+    background: #111111;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-end a{
+    color: white;
+}
+.footer-end1 span{
+    padding: 0 40px;
+}
+.footer-end1 a i{
+    padding-right: 20px;
+}
+.footer-end2 a{
+    padding: 0 20px;
+}
